@@ -6,7 +6,6 @@ export default function Footer() {
     <footer className="footer">
         <div className="Fondo">
             <img src="" alt="" />
-
         </div>
       <div className="footer-logo">
         <img src={CruzadaLogo} alt="Cruzada Patagonica Logo" />
