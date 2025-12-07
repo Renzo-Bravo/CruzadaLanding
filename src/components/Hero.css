@@ -48,7 +48,7 @@
 
   & .fecha {
     font-size: 40px;
-    font-weight: 900 !important;
+    font-weight: 900;
   }
 }
 
