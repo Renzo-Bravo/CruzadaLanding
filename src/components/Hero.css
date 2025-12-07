@@ -59,7 +59,7 @@
   border: none;
   padding: 20px;
   font-size: 30px;
-  backdrop-filter: drop-shadow(5px 5px 10px black);
+  box-shadow: rgb(0, 0, 0, 0.2) 5px 5px 10px;
 }
 
 .inscripcion-btn:hover {
