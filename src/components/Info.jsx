@@ -1,4 +1,4 @@
-import separador from "../assets/Guardapampaentera.png"
+import separador from "../assets/guarpapampamediana.png"
 import fediap from "../assets/fediap-logo.png"
 import "./Info.css";
 
