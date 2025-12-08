@@ -27,7 +27,14 @@
     text-align: center;
   }
 
-  .fediap{
+  .fediap {
+    width: 80%;
+  }
+}
+
+@media (max-width: 550px) {
+  .info p {
+    font-size: var(--fs-200);
     width: 80%;
   }
 }
