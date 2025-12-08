@@ -2,7 +2,7 @@ import "./Hero.css";
 
 export default function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" id="hero">
       <div className="titulos">
         <h1>
           VII Jornadas Regionales De FEDIAP CoFormación Docente de Escuelas
