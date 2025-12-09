@@ -2,7 +2,7 @@ import "./Form.css";
 
 export default function Form() {
   return (
-    <section className="formulario">
+    <section className="formulario" id="joinSection">
       <div className="info-form">
         <h2>Formulario de inscripción</h2>
         <p>
