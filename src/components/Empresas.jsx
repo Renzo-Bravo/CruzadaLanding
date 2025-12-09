@@ -32,7 +32,7 @@ export default function Empresas() {
             próximo anuario institucional de la Fundación. Presencia del logo en
             landing de La Noche Virtual de la Patagonia. Incluye 4 entradas
           </p>
-          <button className="precio">$4.000.000\</button>
+          <button className="precio">$4.000.000</button>
         </div>
       </div>
     </section>
