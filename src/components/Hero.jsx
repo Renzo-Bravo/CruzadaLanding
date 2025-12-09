@@ -4,10 +4,10 @@ export default function Hero() {
   return (
     <section className="hero" id="hero">
       <div className="titulos">
-        <h1>
+        <h2>
           VII Jornadas Regionales De FEDIAP CoFormación Docente de Escuelas
           Agrotécnicas
-        </h1>
+        </h2>
         <h2 className="hero-info">
           Educación agrotécnica y sustentabilidad: energías renovables y
           pedagogía en escuelas rurales

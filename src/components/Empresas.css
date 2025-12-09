@@ -24,8 +24,8 @@
     z-index: -1;
   }
 
-  h1 {
-    font-size: var(--fs-800);
+  h2 {
+    font-size: var(--fs-200);
   }
 }
 
