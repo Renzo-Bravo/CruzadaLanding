@@ -1,7 +1,7 @@
 .header {
   padding: 0.5rem 0rem;
   width: 100%;
-  border-bottom: solid 4px var(--primary--clr);
+  border-bottom: solid 2px var(--primary--clr);
   font-size: 20px;
   font-weight: bold;
   z-index: 999;
@@ -17,13 +17,16 @@
 a {
   text-decoration: none;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 .menu-hamburguesa {
   display: none;
 }
+
 .menu-hamburguesa:checked + .ul-links {
   height: calc(100vh - 80px);
 }
@@ -44,6 +47,7 @@ ul {
   color: var(--primary--clr);
   cursor: pointer;
 }
+
 .ul-links {
   width: 100%;
   position: absolute;
@@ -57,18 +61,20 @@ ul {
   align-items: center;
   gap: 20px;
   background: #d4c6c6b4;
-  backdrop-filter: blur(8px);
 
   transition: all 0.3s;
 }
+
 .links {
   font-size: 3em;
   color: var(--primary--clr);
 }
+
 @media (min-width: 768px) {
   .label-hamburguesa {
     display: none;
   }
+
   .ul-links {
     position: static;
     width: auto;
@@ -77,10 +83,12 @@ ul {
     gap: 1rem;
     background: none;
   }
+
   .links {
     font-size: 1.2rem;
     transition: all 0.3s;
   }
+  
   .links:hover {
     background-color: hsl(from var(--primary--clr) h s l / 0.2);
     border-radius: 15px;

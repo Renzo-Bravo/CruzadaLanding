@@ -1,6 +1,32 @@
-.footer{
-    background-color: black;
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
 }
-.footer-logo img{
-    width: 50px;
+
+.footer .footer-head {
+  width: 100%;
+}
+
+.footer .fondo-head img {
+  width: 100%;
+}
+
+.footer-end {
+  width: 100%;
+  background-color: black;
+}
+
+.footer-logo {
+  width: 120px;
+  height: auto;
+}
+
+.footer-logo img {
+  width: 100%;
+  height: auto;
 }

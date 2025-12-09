@@ -1,0 +1,88 @@
+.formulario {
+  width: 100%;
+  padding: 40px 20px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.date-price{
+  width: 100%;
+  background-color: lightgray;
+  font-size: 16px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5%;
+  border-radius: 10px;
+}
+
+.info-form{
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.info-form h2{
+  margin-bottom: 2%;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 420px;
+  background: lightgray;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+.form-container h2 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: black;
+}
+
+.form-group input {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid rgb(201, 199, 199);
+  background: rgb(201, 199, 199);
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.form-group input:focus {
+  border-color: var(--primary--clr);
+  outline: none;
+  background: white;
+}
+
+.btn-enviar {
+  width: 100%;
+  padding: 12px;
+  background: var(--primary--clr);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-enviar:hover {
+  background: #962e22;
+}
