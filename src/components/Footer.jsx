@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-head">
-        <img src={FondoFooter} alt="Fondo Footer" />
+          <img src={FondoFooter} alt="Fondo Footer" />
       </div>
       <section className="footer-end">
         <div className="footer-logo">

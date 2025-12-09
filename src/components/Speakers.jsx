@@ -18,7 +18,7 @@ export default function Speakers() {
 
   return (
     <section className="speakers-section">
-      <h2 className="speakers-title">speakers</h2>
+      <h2 className="speakers-title">Disertantes</h2>
 
       <div className="speakers-grid">
         {speakers.map((d, index) => (

@@ -10,15 +10,18 @@
 
 .footer .footer-head {
   width: 100%;
+  display: flex;
 }
 
-.footer .fondo-head img {
+.footer .footer-head img {
   width: 100%;
+  align-items: end;
 }
 
 .footer-end {
   width: 100%;
   background-color: black;
+  padding: 5%;
 }
 
 .footer-logo {
