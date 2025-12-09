@@ -55,11 +55,12 @@
 .inscripcion-btn {
   background-color: var(--primary--clr);
   color: var(--text-clr);
-  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   border: none;
+  border-radius: 20px;
+  cursor: pointer;
   padding: 20px;
   font-size: 30px;
-  box-shadow: rgb(0, 0, 0, 0.2) 5px 5px 10px;
 
   &:hover {
     background-color: var(--primary--clr-o);

@@ -3,6 +3,7 @@
   color: var(--text-clr);
   text-align: center;
   z-index: 0;
+  margin-top: 50px;
   padding-block: 50px;
 
   &:before,
@@ -25,7 +26,8 @@
   }
 
   h2 {
-    font-size: var(--fs-200);
+    font-size: var(--fs-600);
+    padding-bottom: 20px;
   }
 }
 
@@ -34,6 +36,7 @@
   grid-template-columns: 300px 300px 300px;
   gap: 5%;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
 .tarjetas {
@@ -49,28 +52,56 @@
   background-color: hsl(0, 0%, 100%, 0.6);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 
-  h2 {
+  h3 {
     color: var(--primary--clr);
-    font-size: var(--fs-700);
+    font-size: var(--fs-600);
     font-weight: 300;
   }
 
   p {
-    color: black;
+    color: var(--text-clr-o);
     font-size: var(--fs-200);
   }
 
   .precio {
-    color: white;
+    color: var(--text-clr);
     background: var(--primary--clr);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     border: none;
     border-radius: 20px;
+     cursor: pointer;
     padding: 10px;
     font-size: var(--fs-300);
 
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: var(--primary--clr-o);
+    }
+  }
+}
+
+@media (max-width: 1050px) {
+  .container {
+    display: grid;
+    grid-template-columns: 400px;
+    gap: 5%;
+    justify-items: center;
+    margin-bottom: 100px;
+  }
+
+  .tarjetas {
+    max-width: 350px;
+    min-width: 300px;
+
+    h2 {
+      font-size: var(--fs-700);
+      font-weight: 300;
+    }
+
+    p {
+      font-size: var(--fs-200);
     }
   }
 }
