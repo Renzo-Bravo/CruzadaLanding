@@ -3,7 +3,7 @@ import "./Empresas.css";
 export default function Empresas() {
   return (
     <section className="empresas">
-      <h1>Empresas</h1>
+      <h2>Empresas</h2>
       <div className="container">
         <div className="tarjetas">
           <h2>Fuego</h2>

@@ -6,17 +6,18 @@
   text-align: center;
   padding-inline: 5%;
 
-  h1 {
+  h2 {
     position: relative;
     text-align: center;
-    font-size: var(--fs-800);
+    font-size: var(--fs-300);
     padding-bottom: 4%;
   }
 }
 
 .areas-container {
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
   gap: 20px;
 }
 
@@ -30,11 +31,11 @@
 
   .titulos {
     color: var(--primary--clr);
-    font-size: var(--fs-700);
+    font-size: var(--fs-400);
   }
 
   p {
-    font-size: var(--fs-500);
+    font-size: var(--fs-300);
   }
 }
 
@@ -42,15 +43,15 @@
   background: var(--primary--clr);
   border: none;
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .icon{
-  width: 150px;
-  height: 150px;
+  width: 70px;
+  height: 70px;
   color: white;
 }

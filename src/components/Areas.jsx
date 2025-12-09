@@ -3,7 +3,7 @@ import "./Areas.css";
 export default function Areas() {
   return (
     <section className="areas">
-      <h1>Areas tematicas 2026</h1>
+      <h2>Areas tematicas 2026</h2>
       <div className="areas-container">
         <div className="tarjeta">
           <div className="icon-container">
