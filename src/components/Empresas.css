@@ -32,7 +32,7 @@
 .container {
   display: grid;
   grid-template-columns: 300px 300px 300px;
-  gap: 20px;
+  gap: 5%;
   justify-content: center;
 }
 
@@ -40,6 +40,7 @@
   display: grid;
   grid-template-rows: subgrid;
   grid-row: span 3;
+  justify-items: center;
   gap: 20px;
   padding: 10px;
   max-width: 300px;
@@ -51,10 +52,13 @@
 
   h2 {
     color: var(--primary--clr);
+    font-size: var(--fs-700);
+    font-weight: 300;
   }
 
   p {
     color: black;
+    font-size: var(--fs-200);
   }
 
   .precio {
@@ -63,6 +67,10 @@
     border: none;
     border-radius: 20px;
     padding: 10px;
+    font-size: var(--fs-300);
 
+    &:hover {
+      background-color: var(--primary--clr-o);
+    }
   }
 }
