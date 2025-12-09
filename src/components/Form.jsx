@@ -4,7 +4,7 @@ export default function Form() {
   return (
     <section className="formulario" id="joinSection">
       <div className="info-form">
-        <h2>Formulario de inscripción</h2>
+        <h2 className="title-with-bar">Formulario de inscripción</h2>
         <p>
           Únete a nosotros en este encuentro transformador. La inscripción
           incluye todas las conferencias, talleres, materiales y refrigerios.

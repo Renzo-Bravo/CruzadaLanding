@@ -29,6 +29,13 @@
   }
 }
 
+.title-with-bar {
+  position: relative;
+  padding-left: 18px; /* espacio para la barra */
+  font-weight: 600;
+  display: inline-block;
+}
+
 .container {
   display: grid;
   grid-template-columns: 300px 300px 300px;
