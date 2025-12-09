@@ -17,7 +17,7 @@ export default function Speakers() {
   ];
 
   return (
-    <section className="speakers-section">
+    <section className="speakers-section" id="speakers">
       <h2 className="speakers-title">speakers</h2>
 
       <div className="speakers-grid">
