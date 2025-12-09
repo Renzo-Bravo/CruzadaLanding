@@ -60,10 +60,10 @@
   padding: 20px;
   font-size: 30px;
   box-shadow: rgb(0, 0, 0, 0.2) 5px 5px 10px;
-}
 
-.inscripcion-btn:hover {
-  background-color: var(--primary--clr-o);
+  &:hover {
+    background-color: var(--primary--clr-o);
+  }
 }
 
 @media (max-width: 950px) {
