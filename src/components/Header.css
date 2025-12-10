@@ -52,7 +52,7 @@ ul {
 .ul-links {
   width: 100%;
   position: absolute;
-  top: 87px;
+  top: 75px;
   left: 0;
   height: 0;
   overflow: hidden;
@@ -97,7 +97,7 @@ ul {
   }
 
   .ul-links {
-    top: 65px; 
+    top: 79px; 
     gap: 25px;
     padding-top: 10px;
   }
