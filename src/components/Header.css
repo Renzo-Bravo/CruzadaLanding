@@ -85,11 +85,11 @@ ul {
   }
 
   .navbar {
-    padding: 0 40px; 
+    padding: 0 40px;
   }
 
   .logo img {
-    height: 70px; 
+    height: 70px;
   }
 
   .list-icon {
@@ -97,23 +97,22 @@ ul {
   }
 
   .ul-links {
-    top: 79px; 
+    top: 79px;
     gap: 25px;
-    padding-top: 10px;
   }
 
   .links {
-    font-size: 2.2em; 
+    font-size: 2.2em;
   }
 }
 
 @media (min-width: 1024px) {
   .label-hamburguesa {
-    display: none; 
+    display: none;
   }
 
   .menu-hamburguesa {
-    display: none; 
+    display: none;
   }
 
   .ul-links {

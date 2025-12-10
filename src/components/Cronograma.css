@@ -6,6 +6,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  h2{
+    font-size: var(--fs-400);
+  }
 }
 
 hr {
