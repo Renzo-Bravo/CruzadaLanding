@@ -6,7 +6,7 @@ export default function Empresas() {
       <h2>Empresas</h2>
       <div className="container">
         <div className="tarjetas">
-          <h2>Fuego</h2>
+          <h3>Fuego</h3>
           <p>
             Proyección de logo durante el evento. Aparición del logo en el
             próximo anuario institucional de la Fundación. Presencia del logo en
@@ -16,7 +16,7 @@ export default function Empresas() {
           <button className="precio">$6.500.000</button>
         </div>
         <div className="tarjetas">
-          <h2>Agua</h2>
+          <h3>Agua</h3>
           <p>
             Proyección de logo durante el evento. Aparición del logo en el
             próximo anuario institucional de la Fundación. Presencia del logo en
@@ -26,7 +26,7 @@ export default function Empresas() {
           <button className="precio">$5.000.000</button>
         </div>
         <div className="tarjetas">
-          <h2>Tierra</h2>
+          <h3>Tierra</h3>
           <p>
             Proyección de logo durante el evento. Aparición del logo en el
             próximo anuario institucional de la Fundación. Presencia del logo en

@@ -9,24 +9,25 @@
   text-align: center;
   z-index: 0;
   padding-top: 90px;
-}
 
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: url("../assets/Foto1.jpg");
-  background-size: cover;
-  background-position: center;
-  z-index: -2;
-}
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+  }
 
-.hero::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: -1;
+  &:before {
+    background-image: url("../assets/Foto1.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+  }
+
+  &:after {
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
 }
 
 .titulos {
@@ -54,15 +55,20 @@
 
 .inscripcion-btn {
   background-color: var(--primary--clr);
-  color: var(--text-clr);
-  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   border: none;
+  border-radius: 20px;
+  cursor: pointer;
   padding: 20px;
   font-size: 30px;
-  box-shadow: rgb(0, 0, 0, 0.2) 5px 5px 10px;
 
   &:hover {
     background-color: var(--primary--clr-o);
+  }
+
+  a {
+    color: var(--text-clr);
+    text-decoration: none;
   }
 }
 
@@ -91,7 +97,7 @@
 
 @media (max-width: 550px) {
   .titulos {
-    & h2{
+    & h2 {
       font-size: var(--fs-500);
       width: 95%;
     }

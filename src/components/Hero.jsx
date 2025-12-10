@@ -14,7 +14,7 @@ export default function Hero() {
         </h2>
         <h2 className="fecha">30 y 31 de Marzo / 1 de Abril - 2026</h2>
         <h2 className="hero-info">CEI SAN IGNACIO, Junín de los Andes, Neuquén</h2>
-        <button className="inscripcion-btn">Incribíte Ahora</button>
+        <button className="inscripcion-btn"><a href="#joinSection">Inscribíte Ahora</a></button>
       </div>
     </section>
   );

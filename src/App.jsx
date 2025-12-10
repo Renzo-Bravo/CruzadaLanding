@@ -6,6 +6,7 @@ import Form from "./components/Form";
 import Footer from "./components/Footer";
 import Areas from "./components/Areas";
 import Empresas from "./components/Empresas";
+import Agradecimientos from "./components/Agradecimientos";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Speakers />
       <Empresas />
       <Form />
+      <Agradecimientos />
       <Footer />
     </>
   );
