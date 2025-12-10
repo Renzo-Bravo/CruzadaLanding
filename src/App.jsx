@@ -7,7 +7,6 @@ import Footer from "./components/Footer";
 import Areas from "./components/Areas";
 import Empresas from "./components/Empresas";
 import Agradecimientos from "./components/Agradecimientos";
-import Atest from "./components/atest";
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
       <Empresas />
       <Form />
       <Agradecimientos />
-      <Atest/>
       <Footer />
     </>
   );

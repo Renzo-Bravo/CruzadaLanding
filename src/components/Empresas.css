@@ -71,7 +71,7 @@
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     border: none;
     border-radius: 20px;
-     cursor: pointer;
+    cursor: pointer;
     padding: 10px;
     font-size: var(--fs-300);
 
