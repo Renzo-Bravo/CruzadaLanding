@@ -59,8 +59,8 @@
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  padding: 20px;
-  font-size: 30px;
+  padding: 10px;
+  font-size: var(--fs-300);
 
   &:hover {
     background-color: var(--primary--clr-o);
@@ -75,7 +75,7 @@
 @media (max-width: 950px) {
   .titulos {
     & h2 {
-      font-size: var(--fs-700);
+      font-size: var(--fs-800);
     }
 
     & .hero-info {
@@ -119,3 +119,5 @@
     font-size: var(--fs-200);
   }
 }
+
+

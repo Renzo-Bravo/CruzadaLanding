@@ -22,7 +22,7 @@ export default function Form() {
       </div>
 
       <section className="form-section">
-          <div className="mage-With-Logo">
+          <div className="image-With-Logo">
             <img src={Background} alt="zz" className="backgr"/>
           </div>
         <div className="form-container">
