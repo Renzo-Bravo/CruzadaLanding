@@ -57,7 +57,7 @@
   text-decoration: underline;
 }
 
-@media (min-width: 600px) and (max-width: 1023px) {
+@media (min-width: 600px) {
   .ediciones-contacto {
     flex-direction: row;
     justify-content: space-between;

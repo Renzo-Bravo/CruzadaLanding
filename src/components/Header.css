@@ -106,3 +106,46 @@ ul {
     font-size: 2.2em; 
   }
 }
+
+@media (min-width: 1024px) {
+  .label-hamburguesa {
+    display: none; 
+  }
+
+  .menu-hamburguesa {
+    display: none; 
+  }
+
+  .ul-links {
+    position: static;
+    height: auto;
+    flex-direction: row;
+    background: transparent;
+    backdrop-filter: none;
+    gap: 10px;
+    width: auto;
+  }
+
+  .links {
+    font-size: var(--fs-200);
+    color: var(--primary--clr);
+  }
+
+  .links:hover {
+    padding: 5px 8px;
+    border-radius: 10px;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+    padding: 0;
+  }
+
+  .header {
+    padding: 1rem 0;
+  }
+
+  .logo img {
+    height: 70px;
+  }
+}

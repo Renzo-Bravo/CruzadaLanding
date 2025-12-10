@@ -28,4 +28,31 @@
   width: 95vw;
 }
 
+@media (min-width: 1024px) {
+  .info {
+    gap: 20px;
+  }
+
+  .info p {
+    font-size: var(--fs-400);
+    width: 80%; 
+  }
+
+  .fediap {
+    width: 40vw; 
+  }
+
+  .info hr {
+    width: 40%;
+  }
+
+  .separadorEnt {
+    display: block; 
+    width: 100%;
+  }
+
+  .separadorMed {
+    display: none;
+  }
+}
 
