@@ -31,7 +31,7 @@ export default function Footer() {
         <div className="footer-column">
           <h4>Contacto</h4>
           <p>📞 +54 9 11 0000 0000</p>
-          <p>📩 contacto@cruzada.com</p>
+          <p>📩 fundacion@cruzadapatagonica.org </p>
           <div className="footer-social">
             <i className="fab fa-instagram"></i>
             <i className="fab fa-facebook-f"></i>
