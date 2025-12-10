@@ -56,3 +56,30 @@
 .contact-item a:hover {
   text-decoration: underline;
 }
+
+@media (min-width: 600px) and (max-width: 1023px) {
+  .ediciones-contacto {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 90%;
+    padding-left: 4%;
+    gap: 40px;
+  }
+
+  .ediciones,
+  .contacto {
+    flex: 1;
+    min-width: 220px;
+  }
+
+  .ediciones h3,
+  .contacto h3 {
+    font-size: 1.35rem;
+  }
+
+  .ediciones p,
+  .contacto p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}

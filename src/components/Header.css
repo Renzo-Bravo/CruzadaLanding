@@ -79,29 +79,30 @@ ul {
   }
 }
 
-@media (min-width: 768px) {
-  .label-hamburguesa {
-    display: none;
+@media (min-width: 600px) and (max-width: 1023px) {
+  .header {
+    padding: 0.7rem 0;
+  }
+
+  .navbar {
+    padding: 0 40px; 
+  }
+
+  .logo img {
+    height: 70px; 
+  }
+
+  .list-icon {
+    width: 40px;
   }
 
   .ul-links {
-    position: static;
-    width: auto;
-    height: auto;
-    flex-direction: row;
-    gap: 1rem;
-    background: none;
+    top: 65px; 
+    gap: 25px;
+    padding-top: 10px;
   }
 
   .links {
-    font-size: 1.2rem;
-    transition: all 0.3s;
-
-    &:hover,
-    &:focus {
-      background-color: hsl(from var(--primary--clr) h s l / 0.2);
-      border-radius: 15px;
-      padding: 0 8px;
-    }
+    font-size: 2.2em; 
   }
 }

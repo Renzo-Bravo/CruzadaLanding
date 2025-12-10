@@ -24,21 +24,28 @@
   width: 95vw;
 }
 
-@media (max-width: 950px) {
-  .info p {
-    font-size: var(--fs-300);
-    width: 80%;
-    text-align: center;
+@media (min-width: 600px) and (max-width: 1023px) {
+  .info {
+    gap: 15px;
   }
 
-  .fediap {
+  .info .fediap{
+    width: 60%;
+  }
+
+  .info p {
     width: 80%;
+    font-size: var(--fs-300); 
+  }
+
+  .info hr {
+    width: 70%;
+    margin: 2vh auto;
+  }
+
+  .separadorMed {
+    width: 90vw; /
   }
 }
 
-@media (max-width: 550px) {
-  .info p {
-    font-size: var(--fs-200);
-    width: 80%;
-  }
-}
+

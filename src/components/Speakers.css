@@ -58,3 +58,17 @@
   font-size: var(--fs-100);
   color: black;
 }
+
+@media (min-width: 600px) and (max-width: 1023px) {
+  .speakers-section h2{
+    font-size: var(--fs-400);
+  }
+
+  .speakers-card {
+    width: 95%;
+  }
+
+  .speakers-card p {
+    font-size: var(--fs-200);
+  }
+}
