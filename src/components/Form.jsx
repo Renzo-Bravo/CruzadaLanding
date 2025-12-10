@@ -1,5 +1,6 @@
 import separadorEnt from "../assets/Guardapampaentera.png";
 import separadorMed from "../assets/guarpapampamediana.png";
+import Background from "../assets/Foto2.jpg";
 import "./Form.css";
 
 export default function Form() {
@@ -20,33 +21,44 @@ export default function Form() {
         <p>$150.000</p>
       </div>
 
-      <div className="form-container">
-        <form>
-          <div className="form-group">
-            <label htmlFor="nombre">Nombre</label>
-            <input type="text" id="nombre" placeholder="Ej: Juan" required />
+      <section className="form-section">
+          <div className="mage-With-Logo">
+            <img src={Background} alt="zz" className="backgr"/>
           </div>
+        <div className="form-container">
+          <form>
+            <div className="form-group">
+              <label htmlFor="nombre">Nombre</label>
+              <input type="text" id="nombre" placeholder="Ej: Juan" required />
+            </div>
 
-          <div className="form-group">
-            <label htmlFor="apellido">Apellido</label>
-            <input type="text" id="apellido" placeholder="Ej: Pérez" required />
-          </div>
+            <div className="form-group">
+              <label htmlFor="apellido">Apellido</label>
+              <input
+                type="text"
+                id="apellido"
+                placeholder="Ej: Pérez"
+                required
+              />
+            </div>
 
-          <div className="form-group">
-            <label htmlFor="email">Email</label>
-            <input
-              type="email"
-              id="email"
-              placeholder="correo@ejemplo.com"
-              required
-            />
-          </div>
+            <div className="form-group">
+              <label htmlFor="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="correo@ejemplo.com"
+                required
+              />
+            </div>
 
-          <button type="submit" className="btn-enviar">
-            Enviar
-          </button>
-        </form>
-      </div>
+            <button type="submit" className="btn-enviar">
+              Enviar
+            </button>
+          </form>
+        </div>
+      </section>
+
       <hr />
     </section>
   );
