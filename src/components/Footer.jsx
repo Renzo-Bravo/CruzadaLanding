@@ -21,8 +21,9 @@ export default function Footer() {
           <h4>Secciones</h4>
           <ul>
             <li><a href="#hero">Inicio</a></li>
+            <li><a href="#evento"></a>Evento</li>
             <li><a href="#disertantes">Disertantes</a></li>
-            <li><a href="#empresas">Empresas</a></li>
+            <li><a href="#formulario">Formulario</a></li>
             <li><a href="#joinSection">Inscripción</a></li>
           </ul>
         </div>
