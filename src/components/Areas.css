@@ -9,7 +9,7 @@
   h2 {
     position: relative;
     text-align: center;
-    font-size: var(--fs-300);
+    font-size: var(--fs-600);
     padding-bottom: 4%;
   }
 }
