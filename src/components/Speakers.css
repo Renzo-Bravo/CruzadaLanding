@@ -1,13 +1,13 @@
 .speakers-section {
   width: 100%;
-  padding: 10px 10px;
+  padding: 0px 10px;
   text-align: center;
-}
+  }
 
 .speakers-title {
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 25px;
+  margin-bottom: 2vh;
   color: black;
 }
 
@@ -48,14 +48,13 @@
 
 .speakers-card h3 {
   padding-bottom: 2%;
-  font-size: 16px;
+  font-size: var(--fs-200);
   margin-bottom: 5px;
-  font-weight: 600;
   width: 70%;
   border-bottom: 1px solid black;  ;
 }
 
 .speakers-card p {
-  font-size: 16px;
+  font-size: var(--fs-100);
   color: black;
 }

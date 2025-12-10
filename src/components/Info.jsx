@@ -1,11 +1,13 @@
-import separador from "../assets/Guardapampaentera.png"
+import separadorEnt from "../assets/Guardapampaentera.png"
+import separadorMed from "../assets/guarpapampamediana.png"  
 import fediap from "../assets/fediap-logo.png"
 import "./Info.css";
 
 export default function Info() {
     return (
         <section className="info" id="eventContent">
-            <img src={separador} alt="espaciador" className="separador"/>
+            <img src={separadorEnt} alt="Espaciador" className="separadorEnt"/>
+            <img src={separadorMed} alt="Espaciador" className="separadorMed" />
             <img src={fediap} alt="" className="fediap" />
             <p>Las Jornadas Regionales de FEDIAP Destinado a docentes y técnicos de escuelas agrotécnicas de todo el país, durante tres días intensivos se realizarán actividades de exposición de experiencias, presentación de casos, disertaciones y networking.</p>
             <hr />

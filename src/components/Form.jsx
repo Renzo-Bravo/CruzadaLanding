@@ -1,8 +1,12 @@
+import separadorEnt from "../assets/Guardapampaentera.png";
+import separadorMed from "../assets/guarpapampamediana.png";
 import "./Form.css";
 
 export default function Form() {
   return (
     <section className="formulario" id="joinSection">
+      <img src={separadorEnt} alt="Espaciador" className="separadorEnt" />
+      <img src={separadorMed} alt="Espaciador" className="separadorMed" />
       <div className="info-form">
         <h2 className="title-with-bar">Formulario de inscripción</h2>
         <p>
@@ -43,6 +47,7 @@ export default function Form() {
           </button>
         </form>
       </div>
+      <hr />
     </section>
   );
 }

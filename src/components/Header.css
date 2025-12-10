@@ -11,7 +11,7 @@
 }
 
 .header .logo img {
-  height: 70px;
+  height: 60px;
   width: auto;
 }
 a {
@@ -46,6 +46,7 @@ ul {
 .list-icon {
   color: var(--primary--clr);
   cursor: pointer;
+  width: 35px;
 }
 
 .ul-links {

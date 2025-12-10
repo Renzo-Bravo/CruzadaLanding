@@ -10,10 +10,7 @@ export default function Accordion() {
   const [openTestimonios, setOpenTestimonios] = useState(false);
 
   return (
-    <section
-      className="agradecimientos"
-      id="specialThanks"
-    >
+    <section className="agradecimientos" id="specialThanks">
       <div>
         <h2>Agradecimientos</h2>
       </div>
@@ -23,7 +20,7 @@ export default function Accordion() {
           className="menu-btn"
           onClick={() => setOpenSponsors(!openSponsors)}
         >
-          {openSponsors ? <IoIosArrowUp /> : <IoIosArrowDown />} Sponsors
+          Sponsors {openSponsors ? <IoIosArrowUp /> : <IoIosArrowDown />}
         </button>
 
         {openSponsors && (
@@ -42,7 +39,7 @@ export default function Accordion() {
           className="menu-btn"
           onClick={() => setOpenAuspician(!openAuspician)}
         >
-          {openAuspician ? <IoIosArrowUp /> : <IoIosArrowDown />} Auspician
+          Auspician {openAuspician ? <IoIosArrowUp /> : <IoIosArrowDown />}
         </button>
 
         {openAuspician && (
@@ -61,8 +58,8 @@ export default function Accordion() {
           className="menu-btn"
           onClick={() => setOpenInstituciones(!openInstituciones)}
         >
+          Instotuciones Aliadas{" "}
           {openInstituciones ? <IoIosArrowUp /> : <IoIosArrowDown />}{" "}
-          Instituciones Aliadas
         </button>
 
         {openInstituciones && (
@@ -81,7 +78,7 @@ export default function Accordion() {
           className="menu-btn"
           onClick={() => setOpenTestimonios(!openTestimonios)}
         >
-          {openTestimonios ? <IoIosArrowUp /> : <IoIosArrowDown />} Testimonios
+          Testimonioss{openTestimonios ? <IoIosArrowUp /> : <IoIosArrowDown />}
         </button>
 
         {openTestimonios && (
