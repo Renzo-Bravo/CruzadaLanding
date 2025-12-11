@@ -1,6 +1,6 @@
 import "./Footer.css";
-import Logo from "../assets/LOGO EN BLANCO SINFONDO.png";
-import FondoFooter from "../assets/food-bank_56.png";
+import Logo from "../../assets/LOGO EN BLANCO SINFONDO.png";
+import FondoFooter from "../../assets/food-bank_56.png";
 
 export default function Footer() {
   return (

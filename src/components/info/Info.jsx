@@ -1,6 +1,6 @@
-import separadorEnt from "../assets/Guardapampaentera.png"
-import separadorMed from "../assets/guarpapampamediana.png"  
-import fediap from "../assets/fediap-logo.png"
+import separadorEnt from "../../assets/Guardapampaentera.png"
+import separadorMed from "../../assets/guarpapampamediana.png"  
+import fediap from "../../assets/fediap-logo.png"
 import "./Info.css";
 
 export default function Info() {

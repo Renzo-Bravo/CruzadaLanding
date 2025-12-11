@@ -1,14 +1,14 @@
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Info from "./components/Info";
-import Speakers from "./components/Speakers";
-import Cronograma from "./components/Cronograma";
-import Form from "./components/Form";
-import Footer from "./components/Footer";
-import Areas from "./components/Areas";
-import Empresas from "./components/Empresas";
-import Agradecimientos from "./components/Agradecimientos";
-import Report from "./components/Report";
+import Header from "./components/header/Header";
+import Hero from "./components/hero/Hero";
+import Info from "./components/info/Info";
+import Speakers from "./components/speakers/Speakers";
+import Cronograma from "./components/cronograma/Cronograma";
+import Form from "./components/form/Form";
+import Footer from "./components/footer/Footer";
+import Areas from "./components/tematicas/Areas";
+import Empresas from "./components/empresas/Empresas";
+import Agradecimientos from "./components/agradecimientos/Agradecimientos";
+import Report from "./components/report/Report";
 
 function App() {
   return (
