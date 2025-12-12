@@ -1,6 +1,6 @@
-import separadorEnt from "../../assets/Guardapampaentera.png";
-import separadorMed from "../../assets/guarpapampamediana.png";
-import Background from "../../assets/Foto2.jpg";
+import separadorEnt from "@/assets/design/Guardapampaentera.png";
+import separadorMed from "@/assets/design/guarpapampamediana.png";
+import Background from "@/assets/images/Foto2.jpg";
 import "./Form.css";
 
 export default function Form() {

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import CruzadaLogo from "../../assets/LOGO SIN FONDO.png";
+import CruzadaLogo from "@/assets/logo/logo-sin-fondo.png";
 import "./Header.css";
 
 export default function Header() {
