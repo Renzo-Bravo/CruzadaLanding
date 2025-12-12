@@ -6,33 +6,32 @@ export default function Empresas() {
       <h2>Empresas</h2>
       <div className="container">
         <div className="tarjetas">
-          <h3>Fuego</h3>
+          <h3>Sponsor Agua</h3>
           <p>
             Proyección de logo durante el evento. Aparición del logo en el
             próximo anuario institucional de la Fundación. Presencia del logo en
-            redes sociales, en el newsletter institucional y en la landing de La
-            Noche Virtual de la Patagonia. Incluye 8 entradas
+            redes sociales, en el newsletter institucional y en la landing
+            Posibilidad de promoción de acciones dentro de las Jornadas Fediap
+            2026
           </p>
-          <button className="precio">$6.500.000</button>
+          <button className="precio">$3.500.000</button>
         </div>
         <div className="tarjetas">
-          <h3>Agua</h3>
+          <h3>Sponsor Tierra</h3>
           <p>
             Proyección de logo durante el evento. Aparición del logo en el
             próximo anuario institucional de la Fundación. Presencia del logo en
-            redes sociales, en el newsletter institucional y en la landing de La
-            Noche Virtual de la Patagonia. Incluye 6 entradas
+            redes sociales, en el newsletter institucional y en la landing
           </p>
-          <button className="precio">$5.000.000</button>
+          <button className="precio">$2.500.000</button>
         </div>
         <div className="tarjetas">
-          <h3>Tierra</h3>
+          <h3>Sponsor Fuego</h3>
           <p>
-            Proyección de logo durante el evento. Aparición del logo en el
-            próximo anuario institucional de la Fundación. Presencia del logo en
-            landing de La Noche Virtual de la Patagonia. Incluye 4 entradas
+            Proyección de logo durante el evento. Presencia del logo en redes
+            sociales, en el newsletter institucional y en la landing
           </p>
-          <button className="precio">$4.000.000</button>
+          <button className="precio">$1.500.000</button>
         </div>
       </div>
     </section>
