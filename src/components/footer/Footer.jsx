@@ -4,7 +4,7 @@ import FondoFooter from "@/assets/design/food-bank_56.png";
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" id="contact">
       <div className="footer-head">
         <img src={FondoFooter} alt="Fondo Footer" className="fondo-img" />
       </div>
@@ -23,8 +23,7 @@ export default function Footer() {
             <li><a href="#hero">Inicio</a></li>
             <li><a href="#evento"></a>Evento</li>
             <li><a href="#disertantes">Disertantes</a></li>
-            <li><a href="#formulario">Formulario</a></li>
-            <li><a href="#joinSection">Inscripción</a></li>
+            <li><a href="#joinSection">Formulario</a></li>
           </ul>
         </div>
 

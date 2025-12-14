@@ -1,6 +1,6 @@
 import separadorEnt from "@/assets/design/Guardapampaentera.png";
 import separadorMed from "@/assets/design/guarpapampamediana.png";
-import Background from "@/assets/images/Foto2.jpg";
+import logo from "@/assets/logo/logo-en-blanco-sin-fondo.png"
 import "./Form.css";
 
 export default function Form() {
@@ -23,7 +23,9 @@ export default function Form() {
 
       <section className="form-section">
           <div className="image-With-Logo">
-            <img src={Background} alt="zz" className="backgr"/>
+          <div className="backgr">
+            <img src={logo} alt="Logo cruzada patagonica" />
+            </div>
           </div>
         <div className="form-container">
           <form>

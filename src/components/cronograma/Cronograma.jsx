@@ -9,7 +9,7 @@ export default function Accordion() {
   const [openInstituciones, setOpenInstituciones] = useState(false);
 
   return (
-    <section className="cronograma" id="specialThanks">
+    <section className="cronograma" id="activitySchedule">
       <hr />
       <div>
         <h2>Cronograma de actividades</h2>
