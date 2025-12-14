@@ -34,6 +34,26 @@ export default function Empresas() {
           <button className="precio">$1.500.000</button>
         </div>
       </div>
+
+      <h2>Becas</h2>
+      <div className="container-becas">
+        <div className="tarjetas-becas">
+          <h3>Becas Para Alimentacion</h3>
+          <p>
+            Gastos de almuerzo, merienda y cena para 3 días durante las jornadas
+            por docente
+          </p>
+          <button className="precio">$120.000</button>
+        </div>
+        <div className="tarjetas-becas">
+          <h3>Becas Para Pernocte</h3>
+          <p>
+            Gastos de alojamiento y desayuno para 3 días durante las jornadas
+            por docente
+          </p>
+          <button className="precio">$45.000</button>
+        </div>
+      </div>
     </section>
   );
 }

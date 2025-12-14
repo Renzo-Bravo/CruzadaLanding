@@ -57,12 +57,14 @@
   background-color: var(--primary--clr);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   border: none;
-  border-radius: 10px;
+  border-radius: 20px;
+  corner-shape: squircle; /* Esto solo funciona en Google y Edge, Ignorar el error*/
   cursor: pointer;
   padding: 10px;
   font-size: var(--fs-300);
 
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: var(--primary--clr-o);
   }
 
@@ -119,5 +121,3 @@
     font-size: var(--fs-200);
   }
 }
-
-
